@@ -1,0 +1,3 @@
+n= tuple(input().split())
+print(n) 
+

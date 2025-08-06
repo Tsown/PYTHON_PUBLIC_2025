@@ -1,0 +1,8 @@
+a = input("Nhập các chuỗi: ").split()
+b={}
+for x in a:
+    for y in x:
+        if y not in b:
+            b[y] = True
+
+print(list(b.keys()))
